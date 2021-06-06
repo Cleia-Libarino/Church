@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="Door-Double-2">
+  <static>true</static>
+    <link name="link">
+	 <collision name="collision">
+		<geometry>
+		  <mesh>
+		    <uri>model://Door-Double-2/meshes/model.dae</uri>
+		  </mesh>
+		</geometry>
+	      </collision>
+	 <visual name="textures">
+	   <geometry>
+	     <mesh>
+	       <uri>model://Door-Double-2/meshes/model.dae</uri>
+	     </mesh>
+	   </geometry>
+	   <material>
+	     <script>
+	       <uri>model://Door-Double-2/materials/textures</uri>
+	     </script>
+	   </material>
+	 </visual>
+    </link>
+  </model>
+</sdf>

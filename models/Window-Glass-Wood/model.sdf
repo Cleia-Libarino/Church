@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="Window-Glass-Wood">
+  <static>true</static>
+    <link name="link">
+	 <collision name="collision">
+		<geometry>
+		  <mesh>
+		    <uri>model://Window-Glass-Wood/meshes/model.dae</uri>
+		  </mesh>
+		</geometry>
+	      </collision>
+	 <visual name="textures">
+	   <geometry>
+	     <mesh>
+	       <uri>model://Window-Glass-Wood/meshes/model.dae</uri>
+	     </mesh>
+	   </geometry>
+	   <material>
+	       <uri>model://Window-Glass-Wood/materials/textures</uri>
+	   </material>
+	 </visual>
+    </link>
+  </model>
+</sdf>

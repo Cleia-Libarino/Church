@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="church_window">
+  <static>true</static>
+    <link name="link">
+	 <collision name="collision">
+	    <geometry>
+	       <mesh>
+		 <uri>model://church_window/meshes/model.dae</uri>
+	       </mesh>
+	    </geometry>
+	 </collision>
+	 <visual name="church_window">
+	   <geometry>
+	     <mesh>
+	       <uri>model://church_window/meshes/model.dae</uri>
+	     </mesh>
+	   </geometry>
+	   <material>
+	       <uri>model://church_window/materials/textures</uri>
+	   </material>
+	 </visual>
+    </link>
+  </model>
+</sdf>

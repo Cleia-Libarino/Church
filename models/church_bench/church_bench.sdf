@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="church_bench">
+  <static>true</static>
+    <link name="link">
+	 <collision name="collision">
+		<geometry>
+		  <mesh>
+		    <uri>model://church_bench/meshes/model.dae</uri>
+		  </mesh>
+		</geometry>
+	      </collision>
+	 <visual name="church_bench">
+	   <geometry>
+	     <mesh>
+	       <uri>model://church_bench/meshes/model.dae</uri>
+	     </mesh>
+	   </geometry>
+	   <material>
+	     <script>
+	       <uri>model://church_bench/materials/textures</uri>
+	     </script>
+	   </material>
+	 </visual>
+    </link>
+  </model>
+</sdf>

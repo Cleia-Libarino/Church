@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="church_altar">
+  <static>true</static>
+    <link name="link">
+	 <collision name="collision">
+		<geometry>
+		  <mesh>
+		    <uri>model://church_altar/meshes/model.dae</uri>
+		  </mesh>
+		</geometry>
+	      </collision>
+	 <visual name="church_altar">
+	   <geometry>
+	     <mesh>
+	       <uri>model://church_altar/meshes/model.dae</uri>
+	     </mesh>
+	   </geometry>
+	   <material>
+	     <script>
+	       <uri>model://church_altar/materials/textures</uri>
+	     </script>
+	   </material>
+	 </visual>
+    </link>
+  </model>
+</sdf>
